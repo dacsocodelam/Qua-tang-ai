@@ -29,7 +29,7 @@ const AIMascot = dynamic(() => import("../components/AIMascot"), {
 });
 
 export default function Home() {
-  const { t, ready } = useTranslation();
+  const { ready } = useTranslation();
   const [isMounted, setIsMounted] = useState(false);
   const [connectingParticles, setConnectingParticles] = useState<
     Array<{
