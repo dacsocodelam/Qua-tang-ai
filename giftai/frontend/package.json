@@ -5,10 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build": "npm run build",
     "start": "next start",
     "lint": "next lint"
-  },
+},
   "dependencies": {
     "@react-spring/three": "^10.0.3",
     "@react-three/drei": "^10.7.7",
